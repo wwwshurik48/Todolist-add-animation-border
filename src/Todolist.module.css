@@ -5,10 +5,13 @@
 .block {
     width: 300px;
     height: 450px;
-    background: black;
+    background: #ADFF2F;
     border-radius: 6px;
-    animation: 3s linear infinite boxShadow;
-    color: yellow;
+    animation: boxShadow 3s linear infinite;
+    color: 	#A52A2A;
+    text-align: center;
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF,
+    -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 @keyframes boxShadow{
@@ -26,7 +29,9 @@
     }
 
 }
-
+li {
+    list-style-type: none;
+}
 .error {
     border: 3px solid red;
 }
@@ -37,4 +42,7 @@
 
 .activeFilter {
     background-color: aquamarine;
+}
+.isDone {
+    opacity: 0.5;
 }
